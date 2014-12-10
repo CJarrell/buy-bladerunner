@@ -10,4 +10,4 @@ Have a look at the merchandise:
 - Bladerunner DVD - 50 schillings
 - Bladerunner Bluray - 75 schillings
 
-You have 55 schillings at your disposal. *What will you buy?*
+You have 55 schillings at your disposal. **What will you buy?**
