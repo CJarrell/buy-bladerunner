@@ -6,8 +6,8 @@ You've always wanted more Bladerunner videos... right? *Now is your chance!* Bre
 
 Have a look at the merchandise:
 
-- Bladrunner VHS
-- Bladerunner DVD
-- Baldrunner Bluray
+- Bladerunner VHS - 1 schilling
+- Bladerunner DVD - 50 schillings
+- Bladerunner Bluray - 75 schillings
 
-(how much are these?)
+You have 55 schillings at your disposal. *What will you buy?*
