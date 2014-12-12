@@ -1,4 +1,4 @@
-var userName = prompt("Hello.\n Welcome to Buy 'Bladerunner'.\n Before we begin, what is your name?")
+var userName = prompt("Hello.\n Welcome to Buy 'Bladerunner'.\n Before we begin, what is your name?");
 var inventory = [];
 var schillings = 55;
 var item1 = {
