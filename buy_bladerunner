@@ -1,0 +1,18 @@
+div {
+	height: 50px;
+	width: 120px;
+	border-color: #744fb8;
+	background-color: #8c58ed;
+	border-style: dashed;
+	border-width: 4px;
+	border-radius: 5px;
+	margin: auto;
+	text-align: cneter;
+}
+span {
+	color: blue;
+}
+a {
+	color: green;
+	font-family:courier;
+}
