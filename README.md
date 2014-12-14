@@ -13,3 +13,4 @@ Have a look at the merchandise:
 You have 55 schillings at your disposal. **What will you buy?**
 
 ### FUN AWAITS!
+x

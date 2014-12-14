@@ -1,8 +1,8 @@
 div {
-	height: 50px;
-	width: 120px;
+	height: 25px;
+	width: 250px;
 	border-color: #744fb8;
-	background-color: #8c58ed;
+	background-color: #000103;;
 	border-style: dashed;
 	border-width: 4px;
 	border-radius: 5px;
@@ -15,6 +15,14 @@ span {
 }
 
 a {
-	color: green;
-	font-family:courier;
+	color: rgb(255, 239, 3);
+	font-family:impact;
+}
+body {
+	background-color: black;
+	color: white;
+}
+img {
+	height: 225px;
+	text-align: center;
 }
