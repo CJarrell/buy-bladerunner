@@ -7,11 +7,13 @@ div {
 	border-width: 4px;
 	border-radius: 5px;
 	margin: auto;
-	text-align: cneter;
+	text-align: center;
 }
+
 span {
 	color: blue;
 }
+
 a {
 	color: green;
 	font-family:courier;
