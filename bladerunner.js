@@ -1,8 +1,8 @@
 
 $(function(){
   $(".go-to-who").on("click",function(){
-    $(".screen-title").hide();
-    $(".screen-who").show();
+    $(".screen-title").fadeOut();
+    $(".screen-who").fadeIn();
   });
 
   $(".go-to-home").on("click",function(){
