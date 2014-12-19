@@ -1,5 +1,13 @@
 
 $(function(){
+  $(".footbar").mouseenter(function() {
+    $(".footbar").fadeTo('slow', .8);
+  });
+
+  $(".footbar").mouseleave(function(){
+    $(".footbar").fadeTo('slow', 1);
+  });
+
   $(".go-to-who").on("click",function(){
     $(".screen-title").fadeOut("slow", function(){
       $(".screen-who").fadeIn();
