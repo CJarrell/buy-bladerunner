@@ -14,7 +14,7 @@ body {
 	background: linear-gradient(#EB2430, rgba(0,0,0,0));
 
 }
-.headBar {
+.title-headBar {
 	height: 150px;
 	width: 560px;
 	background-color: #EB2430;
@@ -37,6 +37,17 @@ body {
 	width: 560px;
 	background-color: #EB2430;
 	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px #FFFEAD solid;
+}
+.headBar {
+	height: 150px;
+	width: 560px;
+	background-color: #EB2430;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
