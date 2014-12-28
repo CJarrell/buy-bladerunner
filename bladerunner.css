@@ -46,7 +46,6 @@ body {
 .headBar {
 	height: 100px;
 	width: 1000px;
-	background-color: #EB2430;
 	border-radius: 10px;
 	text-align: center;
 	margin-top: -40px;
@@ -100,5 +99,10 @@ body {
 	margin-bottom: 13px;
 	border: 3px #FFFEAD solid;
 	padding-left: 10px;
-
+}
+.go-to-home {
+	
+	margin-top: 35px;
+	font-size: 40px;
+	color: black;
 }
