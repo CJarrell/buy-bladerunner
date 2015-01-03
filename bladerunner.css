@@ -100,8 +100,22 @@ body {
 	border: 3px #FFFEAD solid;
 	padding-left: 10px;
 }
-.go-to-home {
-	
+.go-to-who {
+	margin-top: 35px;
+	font-size: 40px;
+	color: black;
+}
+.go-to-work {
+	margin-top: 35px;
+	font-size: 40px;
+	color: black;
+}
+.go-to-shop {
+	margin-top: 35px;
+	font-size: 40px;
+	color: black;
+}
+.go-to-title {
 	margin-top: 35px;
 	font-size: 40px;
 	color: black;
