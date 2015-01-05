@@ -46,9 +46,10 @@ body {
 .headBar {
 	height: 100px;
 	width: 1000px;
+	background-color: #EB2430;
 	border-radius: 10px;
 	text-align: center;
-	margin-top: -40px;
+	margin-top: -100px;
 	margin-right: auto;
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
@@ -119,4 +120,21 @@ body {
 	margin-top: 35px;
 	font-size: 40px;
 	color: black;
+}
+.computer-screen {
+	background-image: url("bbr-maincontent-bg.png");
+	width: 1000px;
+	height: 500px;
+	background-color: #EB2430;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	border: 3px #FFFEAD solid;
+}
+.computer-type { 
+	color: #00FF08;
+	text-shadow: 0 0 5px #00FF08;
+	margin-left: 20px;
+	margin-right: 20px;
 }
