@@ -14,7 +14,7 @@ body {
 	background: linear-gradient(#EB2430, rgba(0,0,0,0));
 
 }
-.title-headBar {
+.title-headbar {
 	height: 150px;
 	width: 560px;
 	background-color: #EB2430;
@@ -43,7 +43,7 @@ body {
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
 }
-.headBar {
+.headbar {
 	height: 100px;
 	width: 1000px;
 	background-color: #EB2430;
@@ -76,25 +76,26 @@ body {
 	border: 3px #FFFEAD solid;
 }
 .main li{
-	display: inline-table;
+	display: inline-block;
 }
 .form-content {
-	text-align: left;
+	/*text-align: left;
 	width: 250px;
 	height: 450px;
-	margin-top: 12px;
 	margin-bottom: 13px;
 	margin-left: 25px;
 	border: 3px #FFFEAD solid;
 	border-radius: 10px;
-	padding-left: 10px;
+	padding-left: 10px;*/
+	margin-left: 50px;
+	float: left;
 
 }
 .radio-form-main {
 	font-size: 20px;
 }
 .other-main-content {
-	text-align: left;
+	/*text-align: left;
 	border-radius: 10px;
 	height: 450px;
 	width: 500px;
@@ -102,10 +103,11 @@ body {
 	margin-right: 25px;
 	margin-bottom: 13px;
 	border: 3px #FFFEAD solid;
-	padding-left: 10px;
-}
-.other-main-content {
+	padding-left: 10px;*/
 	font-size: 23px;
+	margin-right: 25px;
+	float: right;
+	width: 500px;
 }
 .go-to-who {
 	margin-top: 35px;

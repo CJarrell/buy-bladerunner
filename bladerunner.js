@@ -19,6 +19,20 @@ $(function(){
   $(".go-to-work").on("click",function(){
     $(".screen-who").hide();
     $(".screen-work").show();
+
+    //typewriter effect init
+    $('#target').teletype({
+      text: [
+      'Welcome to the work screen. Here you can earn Chin-Yen to take to the shop.',
+      ]
+    });
+
+    $('#cursor').teletype({
+      text: ['_', ' '],
+      delay: 0,
+      pause: 500,
+      autoDelete: true
+    });
   });
 
   $(".go-to-shop").on("click",function(){
@@ -77,11 +91,13 @@ $(function(){
             //type
             typeString($tar, settings.text[idx], 0, settings.delay, function () {
               //delete
-              setTimeout(function () {
-                deleteString($tar, settings.delay, function () {
-                  loop($tar, (idx + 1) % settings.text.length);
-                });
-              }, settings.pause);
+              if(settings.autoDelete)  {
+                setTimeout(function () {
+                  deleteString($tar, settings.delay, function () {
+                    loop($tar, (idx + 1) % settings.text.length);
+                  });
+                }, settings.pause);
+              }
             });
 
           }($(this), 0));
@@ -95,26 +111,12 @@ $(function(){
         defaults: {
           delay: 100,
           pause: 5000,
-          text: []
+          text: [],
+          autoDelete: false
         }
       }
     });
   }(jQuery));
 
-  $(".click-here").click(function () {
-    $(".click-here").hide();
-  //typewriter effect init
-    $('#target').teletype({
-      text: [
-      'Welcome to the work screen. Here you can earn Chin-Yen to take to the shop.'
-      ]
-    });
-
-    $('#cursor').teletype({
-      text: ['_', ' '],
-      delay: 0,
-      pause: 500
-    });
-  }); 
 
 });
