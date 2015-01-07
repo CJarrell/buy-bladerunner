@@ -109,26 +109,13 @@ body {
 	float: right;
 	width: 500px;
 }
-.go-to-who {
+
+.nav {
 	margin-top: 35px;
 	font-size: 40px;
 	color: black;
 }
-.go-to-work {
-	margin-top: 35px;
-	font-size: 40px;
-	color: black;
-}
-.go-to-shop {
-	margin-top: 35px;
-	font-size: 40px;
-	color: black;
-}
-.go-to-title {
-	margin-top: 35px;
-	font-size: 40px;
-	color: black;
-}
+
 .computer-screen {
 	background-image: url("bbr-maincontent-bg.png");
 	width: 1000px;

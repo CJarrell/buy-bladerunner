@@ -1,3 +1,8 @@
+var player = {
+  name: "",
+  job: "",
+  difficulty: ""
+};
 
 $(function(){
   $(".footbar").mouseenter(function() {
