@@ -145,3 +145,9 @@ body {
 	margin-right: 20px;
 	font-family: "Courier New";
 }
+.computer-type a {
+	text-align: center;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+}
