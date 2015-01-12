@@ -107,7 +107,7 @@ body {
 	font-size: 23px;
 	margin-right: 25px;
 	float: right;
-	width: 500px;
+	width: 600px;
 }
 
 .nav {
@@ -135,4 +135,7 @@ body {
 	font-size: 25px;
 	font-weight: bold;
 	font-family: "Courier New";
+}
+.answer {
+	display: inline;
 }
