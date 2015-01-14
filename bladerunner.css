@@ -136,6 +136,10 @@ body {
 	font-weight: bold;
 	font-family: "Courier New";
 }
+.question {
+	margin-top: 75px;
+}
 .answer {
+	margin-top: 50px;
 	display: inline;
 }
