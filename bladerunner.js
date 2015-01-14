@@ -1,7 +1,8 @@
 var player = {
   name: "",
   job: "",
-  difficulty: ""
+  difficulty: "",
+  chinYen: 0
 };
 
 var questions = {
