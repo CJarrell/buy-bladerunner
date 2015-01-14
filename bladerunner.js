@@ -9,30 +9,36 @@ var questions = {
   civilian: {
     easy: {
       question: 'Please input the year in which Blade Runner was released:',
-      answer: '1982'
+      answer: '1982',
+      value: 1
     },
     medium: {
       question: 'Please input the name of the sci-fi novel which Blade Runner is based on:',
-      answer: 'do androids dream of electric sheep'
+      answer: 'do androids dream of electric sheep',
+      value: 50
     },
     difficult: {
       question: 'Please input the name of the person who directed Blade Runner:',
-      answer: 'ridley scott'
+      answer: 'ridley scott',
+      value: 75
     }
   },
 
   replicant: {
     easy: {
       question: 'Please input the name of the replicant who lead the rebel band of Nexus-6 replicants:',
-      answer: 'roy batty'
+      answer: 'roy batty',
+      value: 5
     },
     medium: {
       question: 'Please input the name of the Hallmark Holiday on which the replicant Pris was born:',
-      answer: 'valentines day'
+      answer: 'valentines day',
+      value: 55
     },
     difficult: {
       question: 'Please input the name of the device used to detect replicants in Blade Runner:',
-      answer: 'voight-kampff'
+      answer: 'voight-kampff',
+      value: 80
     }
   },
 
@@ -40,14 +46,17 @@ var questions = {
     easy: {
       question: 'Please input the name of the main character in Blade Runner:',
       answer: 'rick deckard',
+      value: 10
     },
     medium: {
       question: 'Please input the telephone number where one could reach Rachel:',
       answer: '555-7583',
+      value: 65
     },
     difficult: {
       question: 'Please input the badge number of the Blade Runner;',
       answer: 'br-263-54',
+      value: 95
     }
   }
 };
