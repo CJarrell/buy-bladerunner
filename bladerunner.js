@@ -23,9 +23,8 @@ $(function(){
   $(".go-to-who").on("click",function(){
     $(".screen-work").hide();
     $(".screen-shop").hide();
-    $(".screen-title").fadeOut("slow", function(){
-      $(".screen-who").fadeIn();
-    }); 
+    $(".screen-title").hide();
+    $(".screen-who").show();
   });
   
   $(".go-to-work").on("click",function(){

@@ -94,6 +94,11 @@ body {
 .radio-form-main {
 	font-size: 20px;
 }
+.form-content a{
+	margin-top: 20px;
+	color: black;
+	font-size: 20px;
+}
 .other-main-content {
 	/*text-align: left;
 	border-radius: 10px;
