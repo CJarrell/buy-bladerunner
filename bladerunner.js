@@ -26,6 +26,11 @@ $(function(){
     $(".screen-title").hide();
     $(".screen-who").show();
   });
+
+  $(".submit-player").click(function(){
+    player.name = $("input[name=player-name]").val();
+    console.log(player.name);
+  });
   
   $(".go-to-work").on("click",function(){
     $(".screen-who").hide();
