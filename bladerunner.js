@@ -38,7 +38,7 @@ var questions = {
   bladerunner: {
     easy: {
       question: 'Please input the name of the main character in Blade Runner:',
-      answer: 'deckard cain',
+      answer: 'rick deckard',
     },
     medium: {
       question: 'Please input the telephone number where one could reach Rachel:',
