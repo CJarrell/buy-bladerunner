@@ -5,65 +5,13 @@ var player = {
   chinYen: 0
 };
 
-var questions = {
-  civilian: {
-    easy: {
-      question: 'Please input the year in which Blade Runner was released:',
-      answer: '1982',
-      value: 1
-    },
-    medium: {
-      question: 'Please input the name of the sci-fi novel which Blade Runner is based on:',
-      answer: 'do androids dream of electric sheep',
-      value: 50
-    },
-    difficult: {
-      question: 'Please input the name of the person who directed Blade Runner:',
-      answer: 'ridley scott',
-      value: 75
-    }
-  },
-
-  replicant: {
-    easy: {
-      question: 'Please input the name of the replicant who lead the rebel band of Nexus-6 replicants:',
-      answer: 'roy batty',
-      value: 5
-    },
-    medium: {
-      question: 'Please input the name of the Hallmark Holiday on which the replicant Pris was born:',
-      answer: 'valentines day',
-      value: 55
-    },
-    difficult: {
-      question: 'Please input the name of the device used to detect replicants in Blade Runner:',
-      answer: 'voight-kampff',
-      value: 80
-    }
-  },
-
-  bladerunner: {
-    easy: {
-      question: 'Please input the name of the main character in Blade Runner:',
-      answer: 'rick deckard',
-      value: 10
-    },
-    medium: {
-      question: 'Please input the telephone number where one could reach Rachel:',
-      answer: '555-7583',
-      value: 65
-    },
-    difficult: {
-      question: 'Please input the badge number of the Blade Runner;',
-      answer: 'br-263-54',
-      value: 95
-    }
-  }
-};
-
-
+var questions = {};
 
 $(function(){
+  $.getJSON("questions.json", function(data){
+    questions = data;
+  });
+
   $(".footbar").mouseenter(function() {
     $(".footbar").fadeTo('slow', .8);
   });
