@@ -3,7 +3,7 @@
   display: none;
 }
 body {
-	background-image: url("city-in-blade-runner.jpg");
+	background-image: url("images/city-in-blade-runner.jpg");
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -117,7 +117,7 @@ body {
 }
 
 .computer-screen {
-	background-image: url("bbr-maincontent-bg.png");
+	background-image: url("images/bbr-maincontent-bg.png");
 	width: 1000px;
 	height: 500px;
 	background-color: #EB2430;
