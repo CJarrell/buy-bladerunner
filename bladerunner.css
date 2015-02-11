@@ -1,7 +1,9 @@
-
-.screen-who, .screen-home, .screen-work, .screen-shop, .player-card {
+/* Hides all pages other than screen-title when app is launched */
+.screen-home, .screen-work, .screen-shop, .player-card {
   display: none;
 }
+
+/* This sets up the background image for all pages */
 body {
 	background-image: url("images/city-in-blade-runner.jpg");
 	margin-top: 0px;
@@ -9,12 +11,8 @@ body {
 	margin-right: 0px;
 	
 }
-.top{
-	height: 275px;
-	background: linear-gradient(#EB2430, rgba(0,0,0,0));
 
-}
-
+/* This is styling for screen-title */
 .title-headbar {
 	height: 150px;
 	width: 560px;
@@ -26,11 +24,10 @@ body {
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
 }
-.bbrposter {
-	border-radius: 5px;
+.bbr-poster {
 	border: 2px #FFFEAD solid;
 	width: 560px;
-	margin-top:20px;
+	margin-top:15px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -39,12 +36,21 @@ body {
 	width: 560px;
 	background-color: #EB2430;
 	border-radius: 10px;
-	margin-top:20px;
+	margin-top:15px;
 	margin-right: auto;
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
 }
-.headbar {
+
+/* This is styling for the banner on screen-home, screen-work, screen-shop */
+.banner{
+	height: 275px;
+	background: linear-gradient(#EB2430, rgba(0,0,0,0));
+
+}
+
+/* This is the header and footer for the game content */
+.content-header {
 	height: 100px;
 	width: 1000px;
 	background-color: #EB2430;
@@ -55,19 +61,10 @@ body {
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
 }
-.main-content{
-	width: 1000px;
-	height: 500px;
-	background-color: #EB2430;
-	margin-top: 20px;
-	margin-right: auto;
-	margin-left: auto;
-	border-radius: 10px;
-	border: 3px #FFFEAD solid;
-}
-.footbar {
+
+.content-footer {
 	text-align: center;
-	height: 50px;
+	height: 60px;
 	width: 1000px;
 	background-color: #EB2430;
 	border-radius: 10px;
@@ -76,18 +73,28 @@ body {
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
 }
+
+/* Styling for the navigation and nav buttons */
+.navigation {
+	margin-top: 10px;
+	font-size: 40px;
+	color: black;
+}
+
+.nav-b {
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+}
+
+
+
+/* Must be edited and integrated */
 .main li{
 	display: inline-block;
 }
 .form-content {
-	/*text-align: left;
-	width: 250px;
-	height: 450px;
-	margin-bottom: 13px;
-	margin-left: 25px;
-	border: 3px #FFFEAD solid;
-	border-radius: 10px;
-	padding-left: 10px;*/
+	
 	margin-left: 50px;
 	float: left;
 
@@ -101,26 +108,12 @@ body {
 	font-size: 20px;
 }
 .other-main-content {
-	/*text-align: left;
-	border-radius: 10px;
-	height: 450px;
-	width: 500px;
-	margin-left: 75px;
-	margin-right: 25px;
-	margin-bottom: 13px;
-	border: 3px #FFFEAD solid;
-	padding-left: 10px;*/
 	font-size: 23px;
 	margin-right: 25px;
 	float: right;
 	width: 600px;
 }
 
-.nav {
-	margin-top: 35px;
-	font-size: 40px;
-	color: black;
-}
 
 .computer-screen {
 	background-image: url("images/bbr-maincontent-bg.png");

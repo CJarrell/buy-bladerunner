@@ -1,53 +1,35 @@
-var player = {
-  name: "",
-  job: "",
-  difficulty: "",
-  chinYen: 0
-};
 
-var questions = {};
+//var questions = {};
 
 $(function(){
-  $.getJSON("questions.json", function(data){
-    questions = data;
-  });
+  //$.getJSON("questions.json", function(data){
+  //  questions = data;
+  //});
 
-  $(".footbar").mouseenter(function() {
-    $(".footbar").fadeTo('slow', .8);
-  });
-
-  $(".footbar").mouseleave(function(){
-    $(".footbar").fadeTo('slow', 1);
-  });
-
-  $(".go-to-who").on("click",function(){
+  // screen-title buttons
+  $(".go-to-home").on("click",function(){
+    $(".screen-title").hide();
     $(".screen-work").hide();
     $(".screen-shop").hide();
-    $(".screen-title").hide();
-    $(".screen-who").show();
-  });
-
-  $(".submit-player").click(function(){
-    player.name = $("input[name=player-name]").val();
-    console.log(player.name);
+    $(".screen-home").show();
   });
   
   $(".go-to-work").on("click",function(){
-    $(".screen-who").hide();
-    var playerDifficulty = $("input[name=player-diff]:checked").val();
-    var playerClass = $("input[name=player-class]:checked").val();
-    questionText = questions[playerClass][playerDifficulty].question;
-    $('.question').html(questionText);
+    $(".screen-home").hide();
+    //var playerDifficulty = $("input[name=player-diff]:checked").val();
+    //var playerClass = $("input[name=player-class]:checked").val();
+    //questionText = questions[playerClass][playerDifficulty].question;
+    //$('.question').html(questionText);
     $(".screen-work").show();
   });
 
   $(".go-to-shop").on("click",function(){
-    $(".screen-who").hide();
+    $(".screen-home").hide();
     $(".screen-shop").show();
   });
 
   $(".go-to-title").on("click",function(){
-    $(".screen-who").hide();
+    $(".screen-home").hide();
     $(".screen-title").show();
   });
 
