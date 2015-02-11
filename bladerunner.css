@@ -72,16 +72,11 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
+	padding-top: 20px;
 }
 
-/* Styling for the navigation and nav buttons */
-.navigation {
-	margin-top: 10px;
-	font-size: 40px;
-	color: black;
-}
-
-.nav-b {
+/* Styling for the nav buttons */
+.nav {
 	text-decoration: none;
 	font-size: 40px;
 	color: black;
