@@ -61,7 +61,6 @@ body {
 	margin-left: auto;
 	border: 3px #FFFEAD solid;
 }
-
 .content-footer {
 	text-align: center;
 	height: 60px;
@@ -82,17 +81,75 @@ body {
 	color: black;
 }
 
+/* Styles the main div that contains the content for the app */
+.computer-screen {
+	background-image: url("images/bbr-maincontent-bg.png");
+	width: 1000px;
+	height: 500px;
+	background-color: #EB2430;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	border: 3px #FFFEAD solid;
+}
+
+/* The following styles main content for all the pages */
+.left {
+	height: 440px;
+	width: 700px;
+	float: left;
+	background-color: green;
+}
+.right {
+	height: 440px;
+	width: 300px;
+	float: right;
+}
+.user {
+	height: 60px;
+	width: 1000px;
+	float: left;
+}
+.user li {
+	display: inline;
+	list-style: none;
+}
+
+/* This is the computer font with the green drop shadow */
+.computer-type{ 
+	color: #00FF08;
+	text-shadow: 0 0 5px #00FF08;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 25px;
+	font-family: monospace;
+	
+}
+
+.computer-type-too{ 
+	color: #EB2430;
+	text-shadow: 0 0 5px #EB2430;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: monospace;
+	
+}
+/* this styles the username input on the home screen */
+.username-input {
+	margin-left: 10px;
+}
 
 
-/* Must be edited and integrated */
+/* Must be edited and integrated or trashed */
 .main li{
 	display: inline-block;
 }
 .form-content {
-	
 	margin-left: 50px;
 	float: left;
-
 }
 .radio-form-main {
 	font-size: 20px;
@@ -110,27 +167,9 @@ body {
 }
 
 
-.computer-screen {
-	background-image: url("images/bbr-maincontent-bg.png");
-	width: 1000px;
-	height: 500px;
-	background-color: #EB2430;
-	margin-top: 20px;
-	margin-right: auto;
-	margin-left: auto;
-	border-radius: 10px;
-	border: 3px #FFFEAD solid;
-}
 
-.computer-type { 
-	color: #00FF08;
-	text-shadow: 0 0 5px #00FF08;
-	margin-left: 20px;
-	margin-right: 20px;
-	font-size: 25px;
-	font-weight: bold;
-	font-family: "Courier New";
-}
+
+
 
 .question {
 	margin-top: 75px;
