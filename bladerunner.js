@@ -2,9 +2,9 @@
 //var questions = {};
 
 $(function(){
-  //$.getJSON("questions.json", function(data){
-  //  questions = data;
-  //});
+  $.getJSON("questions.json", function(data){
+    questions = data;
+  });
 
   // screen-title buttons
   $(".go-to-home").on("click",function(){
@@ -13,13 +13,19 @@ $(function(){
     $(".screen-shop").hide();
     $(".screen-home").show();
   });
+
+  $(".submit-player").on("click", function(){
+    var username = $(".player-name").val();
+    console.log(username)
+    $(".player").html(username);
+  });
   
   $(".go-to-work").on("click",function(){
     $(".screen-home").hide();
-    //var playerDifficulty = $("input[name=player-diff]:checked").val();
-    //var playerClass = $("input[name=player-class]:checked").val();
-    //questionText = questions[playerClass][playerDifficulty].question;
-    //$('.question').html(questionText);
+    var playerDifficulty = $("input[name=player-diff]:checked").val();
+    var playerClass = $("input[name=player-class]:checked").val();
+    questionText = questions[playerClass][playerDifficulty].question;
+    $('.question').html(questionText);
     $(".screen-work").show();
   });
 

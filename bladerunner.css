@@ -16,16 +16,17 @@ body {
 .title-headbar {
 	height: 150px;
 	width: 560px;
-	background-color: #EB2430;
+	background-color: #6C6C6C;
 	border-radius: 10px;
 	text-align: center;
 	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 3px #FFFEAD solid;
+	border: 7px #333333 solid;
 }
 .bbr-poster {
-	border: 2px #FFFEAD solid;
+	border: 7px #333333 solid;
+	height: 759px;
 	width: 560px;
 	margin-top:15px;
 	margin-right: auto;
@@ -34,12 +35,12 @@ body {
 .title-footbar {
 	height: 150px;
 	width: 560px;
-	background-color: #EB2430;
+	background-color: #6C6C6C;
 	border-radius: 10px;
 	margin-top:15px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 3px #FFFEAD solid;
+	border: 7px #333333 solid;
 }
 
 /* This is styling for the banner on screen-home, screen-work, screen-shop */
@@ -53,24 +54,24 @@ body {
 .content-header {
 	height: 100px;
 	width: 1000px;
-	background-color: #EB2430;
+	background-color: #6C6C6C;
 	border-radius: 10px;
 	text-align: center;
 	margin-top: -100px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 3px #FFFEAD solid;
+	border: 7px #333333 solid;
 }
 .content-footer {
 	text-align: center;
 	height: 60px;
 	width: 1000px;
-	background-color: #EB2430;
+	background-color: #6C6C6C;
 	border-radius: 10px;
 	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 3px #FFFEAD solid;
+	border: 7px #333333 solid;
 	padding-top: 20px;
 }
 
@@ -78,6 +79,8 @@ body {
 .nav {
 	text-decoration: none;
 	font-size: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 	color: black;
 }
 
@@ -86,12 +89,12 @@ body {
 	background-image: url("images/bbr-maincontent-bg.png");
 	width: 1000px;
 	height: 500px;
-	background-color: #EB2430;
+	background-color: #6C6C6C;
 	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
 	border-radius: 10px;
-	border: 3px #FFFEAD solid;
+	border: 7px #333333 solid;
 }
 
 /* The following styles main content for all the pages */
@@ -122,8 +125,8 @@ body {
 	text-shadow: 0 0 5px #00FF08;
 	margin-left: 10px;
 	margin-right: 10px;
-	font-size: 25px;
-	font-family: monospace;
+	font-size: 23px;
+	font-family: 'Courier New';
 	
 }
 
@@ -134,12 +137,20 @@ body {
 	margin-left: 10px;
 	margin-right: 10px;
 	font-size: 20px;
-	font-family: monospace;
+	font-family: 'Courier New' ;
 	
 }
-/* this styles the username input on the home screen */
-.username-input {
+/* this styles the text fields in the entire app */
+input[type="text"] {
 	margin-left: 10px;
+	border: solid 1px #0099FF;
+  	box-shadow: 0 0 10px 1px #0099FF;
+  	width: 150px;
+  	height: 20px;
+  	background-color: #00CCFF;
+  	font-size: 15px;
+  	font-family: 'Courier New';
+
 }
 
 
@@ -164,15 +175,6 @@ body {
 	margin-right: 25px;
 	float: right;
 	width: 600px;
-}
-
-
-
-
-
-
-.question {
-	margin-top: 75px;
 }
 
 .answer {
