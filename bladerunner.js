@@ -2,6 +2,11 @@
 //var questions = {};
 
 $(function(){
+
+  $.getJSON("instructions.json", function(info){
+    instructions = info;
+  });
+
   $.getJSON("questions.json", function(data){
     questions = data;
   });
@@ -11,17 +16,20 @@ $(function(){
     $(".screen-title").hide();
     $(".screen-work").hide();
     $(".screen-shop").hide();
+    var homeInstructions = instructions.instruction.home;
+    $('.instruct').html(homeInstructions);
     $(".screen-home").show();
   });
 
   $(".submit-player").on("click", function(){
     var username = $(".player-name").val();
-    console.log(username)
     $(".player").html(username);
   });
   
   $(".go-to-work").on("click",function(){
     $(".screen-home").hide();
+    var workInstructions = instructions.instruction.work;
+    $('.instruct').html(workInstructions);
     var playerDifficulty = $("input[name=player-diff]:checked").val();
     var playerClass = $("input[name=player-class]:checked").val();
     questionText = questions[playerClass][playerDifficulty].question;
@@ -31,6 +39,8 @@ $(function(){
 
   $(".go-to-shop").on("click",function(){
     $(".screen-home").hide();
+    var shopInstructions = instructions.instruction.shop
+    $(".instruct").html(shopInstructions);
     $(".screen-shop").show();
   });
 

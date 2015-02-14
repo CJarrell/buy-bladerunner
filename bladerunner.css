@@ -99,10 +99,11 @@ body {
 
 /* The following styles main content for all the pages */
 .left {
-	height: 440px;
-	width: 700px;
+	height: 439px;
+	width: 699px;
 	float: left;
-	background-color: green;
+	border-right: 1px #0099FF dotted;
+	border-bottom: 1px #0099FF dotted;
 }
 .right {
 	height: 440px;
