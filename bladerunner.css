@@ -16,13 +16,12 @@ body {
 .title-headbar {
 	height: 150px;
 	width: 560px;
-	background-color: #6C6C6C;
+	background-color: #0099FF;
 	border-radius: 10px;
 	text-align: center;
 	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 7px #333333 solid;
 }
 .bbr-poster {
 	border: 7px #333333 solid;
@@ -35,12 +34,11 @@ body {
 .title-footbar {
 	height: 150px;
 	width: 560px;
-	background-color: #6C6C6C;
+	background-color: #0099FF;
 	border-radius: 10px;
 	margin-top:15px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 7px #333333 solid;
 }
 
 /* This is styling for the banner on screen-home, screen-work, screen-shop */
@@ -54,24 +52,22 @@ body {
 .content-header {
 	height: 100px;
 	width: 1000px;
-	background-color: #6C6C6C;
+	background-color: #0099FF;
 	border-radius: 10px;
 	text-align: center;
 	margin-top: -100px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 7px #333333 solid;
 }
 .content-footer {
 	text-align: center;
 	height: 60px;
 	width: 1000px;
-	background-color: #6C6C6C;
+	background-color: #0099FF;
 	border-radius: 10px;
 	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 7px #333333 solid;
 	padding-top: 20px;
 }
 
@@ -130,8 +126,7 @@ body {
 	font-family: 'Courier New';
 	
 }
-
-.computer-type-too{ 
+.computer-type-two{ 
 	color: #EB2430;
 	text-shadow: 0 0 5px #EB2430;
 	margin-top: 10px;
@@ -141,6 +136,17 @@ body {
 	font-family: 'Courier New' ;
 	
 }
+.computer-type-three{
+	color: #0099FF;
+	text-shadow: 0 0 5px #0099FF;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 23px;
+	font-family: 'Courier New' ;
+}
+
+
 /* this styles the text fields in the entire app */
 input[type="text"] {
 	margin-left: 10px;
